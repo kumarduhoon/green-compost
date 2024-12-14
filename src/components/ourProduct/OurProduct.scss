@@ -1,0 +1,29 @@
+body {
+    font-family: Raleway, sans-serif;
+}
+
+.our-product-con {
+    max-width: 90%;
+    margin: 30px auto;
+
+    &__head {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 24px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        text-decoration: underline;
+        margin-bottom: 15px;
+    }
+
+    &__text {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 33.6px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+
+    }
+}

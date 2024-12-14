@@ -1,0 +1,142 @@
+body {
+    font-family: Raleway, sans-serif;
+}
+
+.hero-slider {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+
+    &__main-slider-con {
+        border: none;
+    }
+
+    &__slide {
+        position: relative;
+        width: 100%;
+    }
+
+    &__banner-image {
+        width: 100%;
+        height: 100vh;
+        object-fit: cover;
+    }
+
+    &__text-container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
+        z-index: 2;
+        max-width: 80%;
+        padding: 0 20px;
+
+        &__head {
+            font-size: 2.5em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        &__text {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+
+        &__slider-btn {
+            background-color: #28a745;
+            color: white;
+            padding: 10px 20px;
+            font-size: 1em;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+
+            &:hover {
+                background-color: #218838;
+            }
+        }
+    }
+
+
+    @media (max-width: 768px) {
+        &__text-container {
+            width: 80%;
+            margin: auto;
+            left: 55%;
+            transform: translate(-55%, -50%);
+
+            h1 {
+                font-size: 2em;
+            }
+
+            p {
+                font-size: 1em;
+            }
+        }
+    }
+
+    @media (max-width: 480px) {
+        &__text-container {
+            h1 {
+                font-size: 1.5em;
+            }
+
+            p {
+                font-size: 0.9em;
+            }
+        }
+    }
+}
+
+
+.slick-slider *:focus {
+    outline: none;
+    border: none;
+}
+
+.slick-dots {
+    bottom: 45px;
+    text-align: center;
+}
+
+.slick-dots li {
+    margin-left: 12px;
+}
+
+
+/* Style each dot */
+.slick-dots li button {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    /* Make the dots circular */
+    background-color: #ccc;
+    /* Inactive dot color */
+    border: none;
+    padding: 0;
+}
+
+/* Add spacing between dots */
+
+
+/* Change color for active dot */
+.slick-dots li.slick-active button {
+    background-color: white;
+}
+
+/* Optional: Add a hover effect on dots */
+.slick-dots li button:hover {
+    background-color: #555;
+    transition: background-color 0.3s ease;
+}
+
+.slick-dots li.slick-active button:before {
+    content: none;
+}
+
+.slick-dots li button:before {
+    content: none;
+}

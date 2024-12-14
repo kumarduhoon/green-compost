@@ -1,0 +1,44 @@
+body {
+    font-family: Raleway, sans-serif;
+}
+
+.vision-mission-con-outer {
+    background-image: url('../../assets/images/about/vision_mission_bg.png');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+
+    &__inner {
+        margin: 0 auto;
+        padding: 20px 15px;
+
+        @media (min-width: 768px) {
+            padding: 40px;
+        }
+    }
+
+    &__head {
+        font-family: Inter, sans-serif;
+        font-size: 1.5rem;
+        font-weight: 700;
+        line-height: 1.4;
+        text-align: center;
+        text-decoration: underline;
+        margin: 20px 0;
+
+        @media (min-width: 768px) {
+            font-size: 2rem;
+        }
+    }
+
+    &__text-con {
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.6;
+        text-align: left;
+
+        @media (min-width: 768px) {
+            font-size: 1.125rem;
+        }
+    }
+}

@@ -1,0 +1,66 @@
+body {
+    font-family: Raleway, sans-serif;
+}
+
+.reprocessor-container {
+    background-image: url('../../../assets/images/home/wast_process.png');
+    background-size: cover;
+    padding: 50px;
+    background-position: center;
+    text-align: center;
+
+    .reprocessor-title {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #333;
+        margin-bottom: 10px;
+    }
+
+    .reprocessor-subtitle {
+        font-size: 1rem;
+        color: #666;
+        margin-bottom: 20px;
+    }
+
+    .reprocessor-process-flow {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        .reprocessor-step {
+            flex: 1;
+            margin: 0 10px;
+
+            .reprocessor-image {
+                width: 100%;
+                height: auto;
+                border-radius: 10px;
+            }
+        }
+
+        .reprocessor-arrow {
+            font-size: 2rem;
+            transform: scale(1.5);
+            color: #4caf50;
+            margin: 0 10px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .reprocessor-container {
+        .reprocessor-process-flow {
+            flex-direction: column;
+
+            .reprocessor-step {
+                margin-bottom: 20px;
+            }
+
+            .reprocessor-arrow {
+                transform: rotate(90deg) !important;
+                margin: 10px 0;
+            }
+        }
+    }
+}

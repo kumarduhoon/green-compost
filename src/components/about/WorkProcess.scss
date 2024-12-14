@@ -1,0 +1,80 @@
+body {
+    font-family: Raleway, sans-serif;
+}
+
+.work-process-con {
+    &__header-img-con {
+        max-width: 100%;
+        position: relative;
+        display: inline-block;
+    }
+
+    &__img {
+        width: 100%;
+        display: block;
+        height: auto;
+    }
+
+    &__contain-con {
+        background-image: url('../../assets/images/about/work-process-bg.png');
+        background-size: cover;
+        background-position: center;
+        padding: 20px;
+
+        @media (min-width: 768px) {
+            padding: 30px 40px;
+        }
+    }
+
+    &__head {
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -40%);
+        font-size: 2rem;
+        font-weight: 700;
+        line-height: 1.4;
+        color: white;
+        text-align: center;
+        text-decoration: underline;
+
+        @media (max-width: 768px) {
+            font-size: 1rem;
+            top: 25%;
+        }
+    }
+
+    &__contain-con-text {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+
+        @media (min-width: 768px) {
+            grid-template-columns: 3fr 1fr;
+            gap: 50px;
+        }
+    }
+
+    &__contain-con-img-one,
+    &__contain-con-img-arrow,
+    &__contain-con-img-two,
+    &__contain-con-img-three {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__contain-con-text-one,
+    &__contain-con-text-two,
+    &__contain-con-text-three {
+        padding: 20px;
+        font-size: 1rem;
+        line-height: 1.6;
+        text-align: left;
+
+        @media (min-width: 768px) {
+            padding: 40px;
+            font-size: 1.125rem;
+        }
+    }
+}

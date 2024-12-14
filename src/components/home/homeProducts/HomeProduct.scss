@@ -1,0 +1,164 @@
+.product-slider {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: #fff;
+    text-align: center;
+
+    &__heading {
+        font-size: 2rem;
+        margin-top: 30px;
+        padding-top: 40px;
+        text-transform: uppercase;
+    }
+
+    &__content {
+        position: relative;
+        max-width: 60%;
+        margin-left: 50px;
+    }
+
+}
+
+.our-facilities-main-con-outer {
+    margin: 40px auto;
+}
+
+.our-facilities-main-head {
+    font-family: Crimson Text;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.card-img-card {
+    width: 100%;
+}
+
+@media (min-width: 375px) and (max-width: 425px) {
+    .p-4 {
+        width: 100%;
+        padding: 40px;
+    }
+
+    .card-img-card {
+        width: 100%;
+    }
+}
+
+.our-facilities-main-con-outer {
+    position: relative;
+
+    .slick-slider {
+        position: relative;
+        padding-bottom: 20px;
+    }
+}
+
+.custom-arrow-facility {
+    position: absolute;
+    z-index: 1;
+    background-color: greenyellow;
+    color: white;
+    border: 2px solid greenyellow;
+    color: white;
+    padding: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    top: 110%;
+    left: 45%;
+    transform: translateX(-50%);
+    border-radius: 10%;
+    transition: background-color 0.3s ease;
+}
+
+.next-arrow-facility {
+    left: 53%;
+}
+
+.prev-arrow-facility {
+    left: 40%;
+}
+
+.custom-arrow-facility:hover {
+    background-color: white;
+    color: greenyellow;
+}
+
+
+@media (max-width: 768px) {
+    .custom-arrow-facility {
+        font-size: 1.5rem;
+    }
+
+    .next-arrow-facility {
+        left: 55%;
+    }
+
+    .prev-arrow-facility {
+        left: 38%;
+    }
+}
+
+@media (max-width: 480px) {
+    .custom-arrow-facility {
+        font-size: 1.2rem;
+        padding: 5px;
+        top: 95%;
+    }
+
+    .next-arrow-facility {
+        left: 60%;
+    }
+
+    .prev-arrow-facility {
+        left: 44%;
+    }
+}
+
+.facility-card-head {
+    background-color: rgb(0, 59, 0);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: center;
+    color: white;
+    padding: 20px 20px 10px 20px;
+}
+
+.facility-card-text {
+    background-color: rgb(0, 59, 0);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.main-con {
+    width: 84%;
+}
+
+@media (max-width: 480px) {
+    .main-con {
+        width: 82%;
+    }
+}
+
+@media (max-width: 320px) {
+    .custom-arrow-facility {
+        font-size: 1.2rem;
+        padding: 5px;
+        top: 105%;
+    }
+
+    .next-arrow-facility {
+        left: 60%;
+    }
+
+    .prev-arrow-facility {
+        left: 35%;
+    }
+}
