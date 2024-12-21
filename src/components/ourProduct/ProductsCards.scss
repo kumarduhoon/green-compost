@@ -37,16 +37,16 @@ body {
             margin-top: -30px;
             margin-right: -20px;
             z-index: 1;
-            max-width: 210px;
+            max-width: 165px;
 
             @media (min-width: 768px) {
                 margin-top: -35px;
-                max-width: 210px;
+                max-width: 165px;
             }
 
             @media (max-width: 425px) {
                 margin-top: -35px;
-                max-width: 160px;
+                max-width: 115px;
             }
         }
 
@@ -55,6 +55,15 @@ body {
             background-color: green;
             clip-path: polygon(0% 0%, 85% 0%, 100% 50%, 85% 100%, 0% 100%);
             height: 70%;
+        }
+
+        &__text-con {
+            color: white;
+            margin: 25px 20px 20px 50px;
+
+            @media (max-width: 425px) {
+                margin: 20px 10px 10px 30px;
+            }
         }
     }
 }

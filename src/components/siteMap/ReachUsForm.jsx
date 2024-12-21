@@ -6,7 +6,7 @@ const ReachUsForm = () => {
         <div className="contact-section">
             <div className="contact-section__left">
                 <h2>OUR MISSION</h2>
-                <p>
+                <p className="contact-section__left">
                     Golden Composter is committed to helping the globe achieve zero food
                     waste by providing modular organic food waste composting solutions
                     and systems for all kinds of businesses and homes.

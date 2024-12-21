@@ -1,5 +1,6 @@
 body {
     font-family: Raleway, sans-serif;
+    font-size: 16px;
 }
 
 .home-machine-con {
@@ -63,7 +64,7 @@ body {
             font-size: 16px;
             font-weight: 400;
             line-height: 1.8;
-            text-align: center;
+            text-align: justify;
             color: #ffffff;
 
             @media (max-width: 1024px) {

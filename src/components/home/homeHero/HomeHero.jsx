@@ -6,6 +6,7 @@ import HomeHeroTwo from "../../../assets/images/home/home_hero_two.png";
 import HomeHeroThree from "../../../assets/images/home/home_hero_three.png";
 import { fadeIn } from '../../../Util/variants.js'
 import { motion } from 'framer-motion'
+import { Link } from 'react-router-dom';
 
 function HomeHero() {
     const settings = {
@@ -34,9 +35,9 @@ function HomeHero() {
     };
 
     const bannerImages = [
-        { id: 1, url: HomeHeroOne, head: "CREATING WEALTH FROM WASTE", text: "Following effective waste management practices can provide subsequent generations a more robust economy, a fairer and more inclusive society and a cleaner environment.", btnURL: "" },
-        { id: 2, url: HomeHeroTwo, head: "24-HOUR COMPOSTING MACHINE", text: "GREEN COMPOSTE develops innovative food equipment solutions for home, commercial, and industrial kitchens by turning waste food into compost in just 24 hours.", btnURL: "" },
-        { id: 3, url: HomeHeroThree, head: "24-HOUR COMPOSTING MACHINE", text: "GREEN COMPOSTE develops innovative food equipment solutions for home, commercial, and industrial kitchens by turning waste food into compost in just 24 hours.", btnURL: "" },
+        { id: 1, url: HomeHeroOne, head: "CREATING WEALTH FROM WASTE", text: "Following effective waste management practices can provide subsequent generations a more robust economy, a fairer and more inclusive society and a cleaner environment.", btnURL: "/about" },
+        { id: 2, url: HomeHeroTwo, head: "24-HOUR COMPOSTING MACHINE", text: "GREEN COMPOSTE develops innovative food equipment solutions for home, commercial, and industrial kitchens by turning waste food into compost in just 24 hours.", btnURL: "/about" },
+        { id: 3, url: HomeHeroThree, head: "24-HOUR COMPOSTING MACHINE", text: "GREEN COMPOSTE develops innovative food equipment solutions for home, commercial, and industrial kitchens by turning waste food into compost in just 24 hours.", btnURL: "/about" },
     ];
 
     return (
@@ -58,12 +59,15 @@ function HomeHero() {
                                 whileInView={'show'}
                                 viewport={{ once: false, amount: 0.3 }}
                                 className="hero-slider__text-container__text">{image.text}</motion.p >
-                            <motion.button
-                                variants={fadeIn('up', 0.2)}
-                                initial='hidden'
-                                whileInView={'show'}
-                                viewport={{ once: false, amount: 0.3 }}
-                                className="hero-slider__text-container__slider-btn">Learn More</motion.button >
+                            <Link to={image.btnURL}>
+                                <motion.button
+                                    variants={fadeIn('up', 0.2)}
+                                    initial='hidden'
+                                    whileInView={'show'}
+                                    viewport={{ once: false, amount: 0.3 }}
+                                    className="hero-slider__text-container__slider-btn"
+                                >Learn More</motion.button >
+                            </Link>
                         </div>
                     </div>
                 ))}

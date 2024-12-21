@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import "./Header.scss"
-import { NavLink } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import logo from "../../assets/images/home/green_composte.png"
 
 
@@ -33,7 +33,9 @@ function Header() {
         <nav className={`navbar ${isScrolled ? "scrolled" : ""}`}>
             <div className="container">
                 <div className="logo">
-                    <img src={logo} alt="Company Logo" className="logo_img" />
+                    <Link to="/">
+                        <img src={logo} alt="Company Logo" className="logo_img" />
+                    </Link>
                 </div>
                 <div className="menu-icon" onClick={handleShowNavbar}>
                     <Hamburger />

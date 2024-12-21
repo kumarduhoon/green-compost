@@ -60,12 +60,19 @@ body {
     &__content {
         padding: 20px;
 
+        &__text {
+            font-size: 1.125rem;
+        }
+
+
         @media (min-width: 768px) {
             padding: 40px;
         }
 
         &__text-two {
             margin-top: 20px;
+            font-size: 1.125rem;
+
 
             @media (min-width: 768px) {
                 margin-top: 30px;
