@@ -7,15 +7,20 @@ const ReachUsForm = () => {
             <div className="contact-section__left">
                 <h2>OUR MISSION</h2>
                 <p className="contact-section__left">
-                    Golden Composter is committed to helping the globe achieve zero food
-                    waste by providing modular organic food waste composting solutions
-                    and systems for all kinds of businesses and homes.
+                    At Green Composte, our mission is to revolutionize waste management by delivering
+                    innovative and sustainable solutions. We are dedicated to manufacturing high-quality
+                    organic waste reprocessors, shredders, and waste handling equipment that empower
+                    communities and industries to reduce waste, conserve resources, and promote
+                    environmental health. Guided by a commitment to excellence, cost-efficiency, and
+                    engineering precision, we strive to enhance market share while contributing to a cleaner,
+                    greener planet.
                 </p>
                 <p>
-                    Our goal is to help achieve sustainability, allowing the food waste
-                    from the team, individuals, food processing outlets, etc. to be
-                    utilized as fertilizer for future food through our food recycler
-                    machines.
+                    We aim to lead the way in creating a zero-waste future by blending advanced technology
+                    with eco-conscious practices. Through our well-engineered products and customer-centric
+                    approach, we seek to inspire sustainable habits and make waste management more
+                    accessible and efficient for everyone. By turning challenges into opportunities, we endeavor
+                    to leave a lasting positive impact on both society and the environment.
                 </p>
                 <h3>CONTACT DETAILS</h3>
                 <p>
@@ -32,6 +37,7 @@ const ReachUsForm = () => {
 
             {/* Right Column */}
             <div className="contact-section__right">
+                <h2>Ask Question or Get Quote</h2>
                 <form className="contact-form">
                     <input type="text" name="name" placeholder="Name*" required />
                     <input type="email" name="email" placeholder="Email*" required />

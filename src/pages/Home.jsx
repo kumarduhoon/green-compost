@@ -48,7 +48,9 @@ function Home() {
                 <meta name="msapplication-TileImage" content="/path-to-windows-tile-image.png" />
             </Helmet>
             <HomeHero />
-            <HomeBasicKnowledge />
+            <AnimatedSection>
+                <HomeBasicKnowledge />
+            </AnimatedSection>
             <AnimatedSection>
                 <HomeAbout />
             </AnimatedSection>
@@ -61,7 +63,9 @@ function Home() {
             <AnimatedSection>
                 <HomeProcess />
             </AnimatedSection>
-            <HomeProduct />
+            <AnimatedSection>
+                <HomeProduct />
+            </AnimatedSection>
             <AnimatedSection>
                 <HomeSocialLinks />
             </AnimatedSection>

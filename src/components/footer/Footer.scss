@@ -47,9 +47,6 @@
 
 .newsletter {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10px;
     flex-direction: column;
 }
 
@@ -74,8 +71,9 @@
     margin-right: 15px;
 }
 
-logo-img {
+.logo-img {
     margin-top: 20px;
+    width: 60px;
 }
 
 @media (max-width: 480px) {

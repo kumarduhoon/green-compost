@@ -37,10 +37,10 @@ function OurMachine() {
                     <div className='our-machine-one__content-con__img-con'><img src={bigMachine} alt="Image Alt" loading="lazy" className='our-machine-one__content-con__img-con_img' /></div>
                 </div>
                 <div data-aos="fade-zoom-in" className='our-machine-one__img-cons'>
-                    <img src={machineFour} alt="Image Alt" loading="lazy" className='our-machine-one__img-cons__img' />
-                    <img src={machineThree} alt="Image Alt" loading="lazy" className='our-machine-one__img-cons__img' />
-                    <img src={machineTwo} alt="Image Alt" loading="lazy" className='our-machine-one__img-cons__img' />
                     <img src={machineOne} alt="Image Alt" loading="lazy" className='our-machine-one__img-cons__img' />
+                    <img src={machineTwo} alt="Image Alt" loading="lazy" className='our-machine-one__img-cons__img' />
+                    <img src={machineThree} alt="Image Alt" loading="lazy" className='our-machine-one__img-cons__img' />
+                    <img src={machineFour} alt="Image Alt" loading="lazy" className='our-machine-one__img-cons__img' />
                 </div>
             </div>
         </React.Fragment>

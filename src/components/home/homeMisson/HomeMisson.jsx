@@ -13,8 +13,14 @@ function HomeMisson() {
                 <div
                     className='home-misson-con__text-con'>
                     <h1 className='home-misson-con__text-con__head'>OUR MISSION</h1>
-                    <p className='home-misson-con__text-con__text-one'>Established in year 2024 GREEN COMPOSTE engaged in manufacturing of organic waste Reprocessor . We offer an array of Product like :  FOOD  WASTE  REPROCESSOR , SHRERRDERS , LARGE METAL DUSTBINS etc .</p>
-                    <p className='home-misson-con__text-con__text-two'>We are currently operating under the guidance of MR . MANISH UPADHYAY , Who has rich knowledge of the domain our mission is to provide quality products and increase market share through cost efficient and well engineered product.</p>
+                    <p className='home-misson-con__text-con__text-one'>At Green Composte, our mission is to revolutionize waste management by delivering
+                        innovative and sustainable solutions. We are dedicated to manufacturing high-quality
+                        organic waste reprocessors, shredders, and waste handling equipment that empower
+                        communities and industries to reduce waste, conserve resources, and promote
+                        environmental health. Guided by a commitment to excellence, cost-efficiency, and
+                        engineering precision, we strive to enhance market share while contributing to a cleaner,
+                        greener planet.</p>
+
                     <div className='home-misson-con__text-con__btn-con'>
                         <Link to='/about'>
                             <button className='home-misson-con__text-con__btn-con__btn'>READ MORE</button>

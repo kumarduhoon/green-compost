@@ -48,15 +48,9 @@ function About() {
                 <meta name="msapplication-TileImage" content="/path-to-windows-tile-image.png" />
             </Helmet>
             <Suspense fallback={""}>
-                <motion.div
-                    initial={{ opacity: 0, y: 50 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.8, ease: "easeOut" }}
-                >
-                    <HeroBanner
-                        heroImage={heroImage}
-                    />
-                </motion.div>
+                <HeroBanner
+                    heroImage={heroImage}
+                />
                 <motion.div
                     initial={{ opacity: 0, y: 50 }}
                     animate={{ opacity: 1, y: 0 }}

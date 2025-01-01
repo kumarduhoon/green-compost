@@ -1,6 +1,5 @@
 import React from 'react'
 import "./Footer.scss"
-import logo from "../../assets/images/home/green_composte.png"
 import { Link } from 'react-router-dom'
 
 function Footer() {
@@ -9,22 +8,25 @@ function Footer() {
             <div className="footer-top">
                 <div className="footer-section">
                     <h3>Contact Us</h3>
-                    <p>+91-129-4057336, +91 95969 29377</p>
-                    <p>sales@greencompost.com</p>
+                    <p>Mob. No - +91 99586 29977 </p>
+                    <p>Email - sales@greencomposte.com</p>
                     <div className="social-icons">
                         <h3>Follow us :</h3>
                         <Link
                             target="_blank"
                             rel="noopener noreferrer"
+                            to="https://www.linkedin.com/company/greencomposte"
 
                         ><i className="fab fa-facebook-f"></i></Link>
                         <Link
                             target="_blank"
                             rel="noopener noreferrer"
+                            to='https://www.instagram.com/greencomposte'
                         ><i className="fab fa-instagram"></i></Link>
                         <Link
                             target="_blank"
                             rel="noopener noreferrer"
+                            to='https://www.linkedin.com/company/greencomposte'
                         ><i className="fab fa-linkedin-in"></i></Link>
                     </div>
                 </div>
@@ -40,12 +42,9 @@ function Footer() {
 
                 </div>
                 <div className="footer-section newsletter">
-                    <div><h3>Join Us</h3>
-                        <Link to="/contact">Contact</Link></div>
-                    <Link to='/'>
-                        <img src={logo} alt='logo' className='logo-img' />
-                    </Link>
-
+                    <div><h3>Address</h3>
+                        <div>Plot no. 382, Sec.- 68, IMT Faridabad, Haryana, India</div>
+                    </div>
                 </div>
             </div>
             <div className="footer-bottom">

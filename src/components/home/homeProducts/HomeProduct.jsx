@@ -1,106 +1,54 @@
 import React from "react";
-import Slider from "react-slick";
 import "./HomeProduct.scss";
 import oneImage from "../../../assets/images/home/one.png";
 import twoImage from "../../../assets/images/home/two.png";
 import threeImage from "../../../assets/images/home/three.png"
 import fourImage from "../../../assets/images/home/four.png"
-import backgroundImage from "../../../assets/images/home/sliderBackGround.png"
 
-const NextArrow = ({ onClick }) => {
-    return (
-        <div className="custom-arrow-facility next-arrow-facility" onClick={onClick}>
-            ➡
-        </div>
-    );
-};
-
-const PrevArrow = ({ onClick }) => {
-    return (
-        <div className="custom-arrow-facility prev-arrow-facility" onClick={onClick}>
-            ⬅
-        </div>
-    );
-};
 
 function HomeProduct() {
-    const settings = {
-        infinite: true,
-        speed: 500,
-        slidesToShow: 2,
-        slidesToScroll: 1,
-        arrows: true,
-        cssEase: "ease-in-out",
-        adaptiveHeight: true,
-        nextArrow: <NextArrow />,
-        prevArrow: <PrevArrow />,
-        responsive: [
-            {
-                breakpoint: 640,
-                settings: {
-                    slidesToShow: 1,
-                },
-            },
-        ],
-    };
-
-    const slides = [
+    const cards = [
         {
-            id: 1,
+            title: "Monstera Leaves: Care, Healthy Growth, and Fertilization Tips",
+            description:
+                "Discover essential tips for Monstera leaves care, including how to promote healthy growth and the best fertilization practices to keep your plant thriving.",
             image: oneImage,
-            title: "MODEL GC1000A",
-            capacity: "Capacity: 1000 Kg/day",
         },
         {
-            id: 2,
+            title: "How To Garden?",
+            description:
+                "Ready to start gardening? Discover essential gardening tips, soil selection, and plant care techniques perfect for beginners.",
             image: twoImage,
-            title: "MODEL GC0500A",
-            capacity: "Capacity: 500 Kg/day",
         },
         {
-            id: 3,
+            title: "Citrus: Plant, Grow, & Care for Gardening",
+            description:
+                "Learn how to plant, grow, and care for citrus trees while composting for healthier soil and better fruit production.",
             image: threeImage,
-            title: "MODEL GC0250A",
-            capacity: "Capacity: 250 Kg/day",
         },
         {
-            id: 4,
+            title: "Indoor Plants: Benefits and Tips",
+            description:
+                "Explore the benefits of indoor plants and get practical tips for incorporating greenery into your home.",
             image: fourImage,
-            title: "MODEL GC0100A",
-            capacity: "Capacity: 100 Kg/day",
         },
     ];
 
     return (
-        <div
-            className="product-slider"
-            style={{ backgroundImage: `url(${backgroundImage})` }}
-        >
-            <div className="product-slider__content">
-                <h1 className="product-slider__heading">OUR PRODUCT RANGE</h1>
-                <div className="our-facilities-main-con">
-                    <Slider {...settings}>
-                        {slides.map((item, index) => (
-                            <div key={index} className="p-4">
-                                <FlipCard item={item} />
-                            </div>
-                        ))}
-                    </Slider>
-                </div>
+        <div className="card-grid-container">
+            <div className="card-grid">
+                {cards.map((card, index) => (
+                    <div key={index} className="card">
+                        <img src={card.image} alt={card.title} className="card-image" />
+                        <div className="card-content">
+                            <h3 className="card-title">{card.title}</h3>
+                            <p className="card-description">{card.description}</p>
+                        </div>
+                    </div>
+                ))}
             </div>
         </div>
     );
 }
-
-const FlipCard = ({ item }) => {
-    return (
-        <div className="main-con">
-            <img src={item.image} alt={item.title} className="card-img-card" />
-            <div className="facility-card-head">{item.title}</div>
-            <div className="facility-card-text">{item.capacity}</div>
-        </div>
-    );
-};
-
 
 export default HomeProduct;

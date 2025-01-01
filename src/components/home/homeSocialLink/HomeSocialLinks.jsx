@@ -16,6 +16,7 @@ function HomeSocialLinks() {
                     <Link
                         target="_blank"
                         rel="noopener noreferrer"
+                        to='https://www.instagram.com/greencomposte'
                     >
                         <img
                             src={insta}
@@ -28,6 +29,7 @@ function HomeSocialLinks() {
                     <Link
                         target="_blank"
                         rel="noopener noreferrer"
+                        to='https://www.facebook.com/greencomposte'
                     >
                         <img
                             src={fb}
@@ -40,6 +42,7 @@ function HomeSocialLinks() {
                     <Link
                         target="_blank"
                         rel="noopener noreferrer"
+                        to='https://www.linkedin.com/company/greencomposte'
                     >
                         <img
                             src={linkedin}
@@ -52,6 +55,7 @@ function HomeSocialLinks() {
                     <Link
                         target="_blank"
                         rel="noopener noreferrer"
+                        to='https://hssindia.in/'
                     >
                         <img
                             src={hss}

@@ -12,6 +12,12 @@ body {
     justify-content: space-between;
     align-items: center;
     height: 100%;
+    border: 1px solid white;
+    border-top-width: 0px;
+    --tw-backdrop-blur: blur(70px);
+    backdrop-filter: var(--tw-backdrop-blur);
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
 }
 
 .navbar {
@@ -30,13 +36,17 @@ body {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+.navbar.scrolled .container {
+    border: none;
+}
+
 .menu-icon {
     display: none;
 }
 
 .logo {
-    width: 60px;
-    height: 60px;
+    width: 55px;
+    height: 65px;
 }
 
 .logo_img {
