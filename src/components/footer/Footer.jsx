@@ -15,7 +15,7 @@ function Footer() {
                         <Link
                             target="_blank"
                             rel="noopener noreferrer"
-                            to="https://www.linkedin.com/company/greencomposte"
+                            to="https://www.facebook.com/greencomposte"
 
                         ><i className="fab fa-facebook-f"></i></Link>
                         <Link

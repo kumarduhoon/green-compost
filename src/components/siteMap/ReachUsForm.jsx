@@ -24,14 +24,13 @@ const ReachUsForm = () => {
                 </p>
                 <h3>CONTACT DETAILS</h3>
                 <p>
-                    <strong>Email:</strong> sales@goldencomposter.com
+                    <strong>Email:</strong> sales@greencomposte.com
                 </p>
                 <p>
-                    <strong>Phone:</strong> +91-123-456-789, +91-999-999-9997
+                    <strong>Phone:</strong> +91 99586 29977
                 </p>
                 <p>
-                    <strong>Address:</strong> Plot no. 382, Sec. 4th Kartikbad, Mysuru,
-                    India
+                    <strong>Address:</strong> Plot no. 382, Sec.- 68, IMT Faridabad, Haryana, India
                 </p>
             </div>
 

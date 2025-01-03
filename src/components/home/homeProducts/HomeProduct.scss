@@ -1,6 +1,15 @@
+body {
+    font-family: Raleway, sans-serif;
+}
+
 .card-grid-container {
     background-color: #f3f4f6;
     padding: 2rem;
+
+    .card-heading {
+        padding: 30px;
+        text-align: center;
+    }
 
     .card-grid {
         display: grid;
@@ -28,6 +37,10 @@
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
 
+        .card-link-tag {
+            text-decoration: none;
+        }
+
         .card-image {
             width: 100%;
             object-fit: cover;
@@ -40,13 +53,38 @@
                 font-size: 1rem;
                 font-weight: 600;
                 margin-bottom: 0.5rem;
-                color: #111827;
+                color: black;
             }
 
             .card-description {
                 font-size: 0.875rem;
                 color: #6b7280;
             }
+        }
+    }
+
+    .card-button-box {
+        text-align: center;
+        margin: 30px auto;
+    }
+
+    .card-button {
+        display: inline-block;
+        margin-top: 20px;
+        padding: 10px 20px;
+        background-color: #079244;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        font-size: 1rem;
+        cursor: pointer;
+        text-align: center;
+        border: 2px solid #079244;
+        transition: background-color 0.3s;
+
+        &:hover {
+            background-color: #fff;
+            color: #079244;
         }
     }
 }

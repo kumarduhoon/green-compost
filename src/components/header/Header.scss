@@ -49,6 +49,13 @@ body {
     height: 65px;
 }
 
+@media (min-width: 425px) {
+    .logo {
+        width: 45px;
+        height: 65px;
+    }
+}
+
 .logo_img {
     width: 100%;
 }
@@ -99,6 +106,16 @@ body {
 @media (max-width: 768px) {
     .nav-elements ul li:not(:last-child) {
         margin-right: 30px;
+    }
+
+    .container {
+
+        border: none;
+        border-top-width: 0px;
+        --tw-backdrop-blur: blur(0px);
+        backdrop-filter: var(--tw-backdrop-blur);
+        border-bottom-right-radius: 0rem;
+        border-bottom-left-radius: 0rem;
     }
 }
 

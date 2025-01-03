@@ -25,5 +25,9 @@ body {
         text-underline-position: from-font;
         text-decoration-skip-ink: none;
 
+        @media (max-width: 425px) {
+            text-align: justify;
+            line-height: 23.6px;
+        }
     }
 }

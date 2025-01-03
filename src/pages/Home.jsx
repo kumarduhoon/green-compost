@@ -10,6 +10,7 @@ import HomeSocialLinks from "../components/home/homeSocialLink/HomeSocialLinks"
 import AnimatedSection from '../Util/AnimatedSection'
 import { useLocation } from 'react-router-dom';
 import { Helmet } from "react-helmet";
+import HomeRecycled from '../components/home/homeRecycled/HomeRecycled'
 
 function Home() {
     const location = useLocation();
@@ -65,6 +66,9 @@ function Home() {
             </AnimatedSection>
             <AnimatedSection>
                 <HomeProduct />
+            </AnimatedSection>
+            <AnimatedSection>
+                <HomeRecycled />
             </AnimatedSection>
             <AnimatedSection>
                 <HomeSocialLinks />

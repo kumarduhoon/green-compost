@@ -3,12 +3,11 @@ import "./OurMachine.scss"
 import AOS from "aos";
 import "aos/dist/aos.css";
 import headerImage from "../../assets/images/about/work-process-head.png"
-import machineOne from "../../assets/images/about/machineOne.png"
-import machineTwo from '../../assets/images/about/machineTwo.png'
-import machineThree from "../../assets/images/about/machineThree.png"
-import machineFour from "../../assets/images//about/machineFour.png"
+import machineOne from "../../assets/images/product/6.png"
+import machineTwo from '../../assets/images/product/3.png'
+import machineThree from "../../assets/images/product/4.png"
+import machineFour from "../../assets/images/product/1.png"
 import bigMachine from "../../assets/images/about/bigMachine.png"
-
 
 function OurMachine() {
     useEffect(() => {
