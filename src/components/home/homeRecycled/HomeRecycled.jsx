@@ -1,6 +1,6 @@
 import React from "react";
 import "./HomeRecycled.scss";
-import meatFishPoultry from '../../../assets/images/home/meat_fish_poultry.avif'
+import meatFishPoultry from '../../../assets/images/home/meat_fish_poultry.png'
 import vegetableAndFruitPeelsv from '../../../assets/images/home/vegetable_and_fruit_peelsv.jpg'
 import animalManure from '../../../assets/images/home/animal_manure.jpg'
 import bakeryItems from '../../../assets/images/home/bakery_items.jpg'
@@ -33,6 +33,7 @@ const HomeRecycled = () => {
                             src={item.src}
                             alt={item.alt}
                             className="banner__image"
+                            loading="lazy"
                         />
                         <p className="banner__name">{item.name}</p>
                     </div>

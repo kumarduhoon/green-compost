@@ -1,6 +1,6 @@
 import React from 'react'
 import "./HomeAbout.scss"
-import greenComposeMachineOne from "../../../assets/images/home/green_compose_machine_one.avif"
+import greenComposeMachineOne from "../../../assets/images/home/green_compose_machine_one.png"
 function HomeAbout() {
     return (
         <React.Fragment>

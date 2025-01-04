@@ -1,6 +1,6 @@
 import React from 'react'
 import "./HomeMachine.scss"
-import processImg from "../../../assets/images/home/composting-waste-processing.jpg"
+import processImg from "../../../assets/images/home/composting-waste-processing.png"
 function HomeMachine() {
 
     return (

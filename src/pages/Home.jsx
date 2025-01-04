@@ -8,10 +8,11 @@ import HomeProcess from "../components/home/homeProcess/HomeProcess"
 import HomeProduct from "../components/home/homeProducts/HomeProduct"
 import HomeSocialLinks from "../components/home/homeSocialLink/HomeSocialLinks"
 import AnimatedSection from '../Util/AnimatedSection'
+// import HomeHeroTwo from "../assets/images/home/home_hero_two.png";
 import { useLocation } from 'react-router-dom';
 import { Helmet } from "react-helmet";
 import HomeRecycled from '../components/home/homeRecycled/HomeRecycled'
-
+// import HeroBanner from "../components/comman/HeroBanner"
 function Home() {
     const location = useLocation();
     useEffect(() => {
@@ -48,6 +49,9 @@ function Home() {
                 <meta name="msapplication-TileColor" content="#ffffff" />
                 <meta name="msapplication-TileImage" content="/path-to-windows-tile-image.png" />
             </Helmet>
+            {/* <HeroBanner
+                heroImage={HomeHeroTwo}
+            /> */}
             <HomeHero />
             <AnimatedSection>
                 <HomeBasicKnowledge />
