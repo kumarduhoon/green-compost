@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react'
-import HomeHero from "../components/home/homeHero/HomeHero"
 import HomeBasicKnowledge from "../components/home/homeBasicKnowledge/HomeBasicKnowledge"
 import HomeAbout from "../components/home/homeAbout/HomeAbout"
 import HomeMisson from "../components/home/homeMisson/HomeMisson"
@@ -8,11 +7,11 @@ import HomeProcess from "../components/home/homeProcess/HomeProcess"
 import HomeProduct from "../components/home/homeProducts/HomeProduct"
 import HomeSocialLinks from "../components/home/homeSocialLink/HomeSocialLinks"
 import AnimatedSection from '../Util/AnimatedSection'
-// import HomeHeroTwo from "../assets/images/home/home_hero_two.png";
+import HomeHeroImg from "../assets/images/home/home_banner_new.png";
 import { useLocation } from 'react-router-dom';
 import { Helmet } from "react-helmet";
 import HomeRecycled from '../components/home/homeRecycled/HomeRecycled'
-// import HeroBanner from "../components/comman/HeroBanner"
+import HeroBanner from "../components/comman/HeroBanner"
 function Home() {
     const location = useLocation();
     useEffect(() => {
@@ -49,10 +48,12 @@ function Home() {
                 <meta name="msapplication-TileColor" content="#ffffff" />
                 <meta name="msapplication-TileImage" content="/path-to-windows-tile-image.png" />
             </Helmet>
-            {/* <HeroBanner
-                heroImage={HomeHeroTwo}
-            /> */}
-            <HomeHero />
+            <HeroBanner
+                heroImage={HomeHeroImg}
+                title='24-HOUR COMPOSTING MACHINE'
+                description=' GREEN COMPOST develops innovative food equipment solutions for home, commercial, and industrial kitchens by turning waste food into compost in just 24 hours.'
+                buttonLink='/about'
+            />
             <AnimatedSection>
                 <HomeBasicKnowledge />
             </AnimatedSection>

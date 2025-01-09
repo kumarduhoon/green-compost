@@ -50,6 +50,7 @@ function About() {
             <Suspense fallback={""}>
                 <HeroBanner
                     heroImage={heroImage}
+                    title='About Us'
                 />
                 <motion.div
                     initial={{ opacity: 0, y: 50 }}

@@ -46,6 +46,7 @@ function SiteMap() {
             </Helmet>
             <HeroBanner
                 heroImage={site_maps}
+                title='Site Maps'
             />
             <ReactUsMap />
             <ReachUsForm />

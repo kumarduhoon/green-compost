@@ -44,6 +44,7 @@ function ContactUs() {
             </Helmet>
             <HeroBanner
                 heroImage={contact_us}
+                title='Contact_us'
             />
             <ReactUsMap />
             <ReachUsForm />

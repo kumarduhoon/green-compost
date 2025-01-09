@@ -46,6 +46,7 @@ function OurProduct() {
             </Helmet>
             <HeroBanner
                 heroImage={our_Products}
+                title='Our Products'
             />
             <OurProducts />
             <ProductsCards />

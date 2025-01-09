@@ -8,6 +8,7 @@ import eggShells from '../../../assets/images/home/egg_shells.jpg'
 import fastFood from '../../../assets/images/home/fast_food.jpg'
 import leavesAndGardeningWaste from '../../../assets/images/home/leaves_and_gardening_waste.jpg'
 import leftoverFood from '../../../assets/images/home/leftover_food.jpg'
+import AnimatedSection from "../../../Util/AnimatedSection";
 
 const HomeRecycled = () => {
     const items = [
@@ -22,6 +23,7 @@ const HomeRecycled = () => {
     ];
 
     return (
+
         <div className="banner">
             <h2 className="banner__title">
                 What <span className="banner__highlight">can be Recycled</span>
@@ -29,12 +31,14 @@ const HomeRecycled = () => {
             <div className="banner__grid">
                 {items.map((item) => (
                     <div key={item.id} className="banner__item">
-                        <img
-                            src={item.src}
-                            alt={item.alt}
-                            className="banner__image"
-                            loading="lazy"
-                        />
+                        <AnimatedSection>
+                            <img
+                                src={item.src}
+                                alt={item.alt}
+                                className="banner__image"
+                                loading="lazy"
+                            />
+                        </AnimatedSection>
                         <p className="banner__name">{item.name}</p>
                     </div>
                 ))}
