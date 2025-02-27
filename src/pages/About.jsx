@@ -22,30 +22,23 @@ function About() {
                 <meta charset="UTF-8" />
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-                <title>About - Green Compost</title>
-                <meta name="description" content="Your website's description here, optimized for SEO. Keep it under 160 characters." />
-                <meta name="keywords" content="your, keywords, here, separated, by, commas" />
-                <meta name="author" content="Green Compost" />
+                <title>About Green Composte | Our Mission & Vision</title>
+                <meta name="description"
+                    content="Green Composte (Green Compost) provides innovative recycling solutions that transform green waste into organic compost and organic composte using advanced, environmentally friendly technology." />
+                <meta name="keywords"
+                    content="green compost, green composte, organic compost, organic composte, organic waste recycling, sustainable composting, eco-friendly solutions, waste management, green technology, environmental solutions" />
+                <meta name="author" content="Green Composte" />
                 <meta name="robots" content="index, follow" />
                 <meta name="googlebot" content="index, follow" />
+                <meta name="format-detection" content="telephone=no" />
                 <meta property="og:type" content="website" />
-                <meta property="og:title" content="Home | Green Compost" />
-                <meta property="og:description" content="A brief description of your homepage for social sharing." />
-                <meta property="og:url" content="https://www.yourwebsite.com/" />
-                <meta property="og:image" content="https://www.yourwebsite.com/path-to-image.jpg" />
-                <meta name="twitter:card" content="summary_large_image" />
-                <meta name="twitter:title" content="Home | Green Compost" />
-                <meta name="twitter:description" content="A brief description of your homepage for Twitter sharing." />
-                <meta name="twitter:image" content="https://www.yourwebsite.com/path-to-image.jpg" />
-                <meta name="twitter:site" content="@YourTwitterHandle" />
-                <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-                <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-                <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-                <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-                <link rel="manifest" href="/site.webmanifest" />
-                <meta name="theme-color" content="#ffffff" />
-                <meta name="msapplication-TileColor" content="#ffffff" />
-                <meta name="msapplication-TileImage" content="/path-to-windows-tile-image.png" />
+                <meta property="og:title" content="Green Composte (Green Compost) - Sustainable & Organic Recycling Solutions" />
+                <meta property="og:description"
+                    content="Discover Green Composte (also known as Green Compost) and our innovative technology that transforms green waste into organic compost and organic composte for a greener planet." />
+                <meta property="og:url" content="https://www.greencomposte.com/" />
+                <meta property="og:image" content="https://www.greencomposte.com/images/og-image.jpg" />
+                <meta property="og:site_name" content="Green Composte" />
+                <meta property="og:locale" content="en_US" />
             </Helmet>
             <Suspense fallback={""}>
                 <HeroBanner

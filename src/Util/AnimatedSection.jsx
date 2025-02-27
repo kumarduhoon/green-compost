@@ -11,8 +11,8 @@ const AnimatedSection = ({ children }) => {
             initial={{ opacity: 0 }}
             animate={isInView ? { opacity: 1 } : {}}
             transition={{
-                delay: 0.4,
-                duration: 1.4,
+                delay: 0.2,
+                duration: 0.8,
                 ease: "easeInOut",
             }}
 
