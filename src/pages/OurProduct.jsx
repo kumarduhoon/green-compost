@@ -19,6 +19,7 @@ function OurProduct() {
                 <meta charset="UTF-8" />
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+                <link rel="icon" type="image/x-icon" href="/favicon.ico" />
                 <title>Green Composte Products | Organic Compost Solutions</title>
                 <meta name="description"
                     content="Green Composte (Green Compost) provides innovative recycling solutions that transform green waste into organic compost and organic composte using advanced, environmentally friendly technology." />
