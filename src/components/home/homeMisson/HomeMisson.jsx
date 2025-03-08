@@ -13,7 +13,7 @@ function HomeMisson() {
                 <div
                     className='home-misson-con__text-con'>
                     <h1 className='home-misson-con__text-con__head'>OUR MISSION</h1>
-                    <p className='home-misson-con__text-con__text-one'>At Green Composte, our mission is to revolutionize waste management by delivering
+                    <p className='home-misson-con__text-con__text-one'>At Green Composte (Green Compost), our mission is to revolutionize waste management by delivering
                         innovative and sustainable solutions. We are dedicated to manufacturing high-quality
                         organic waste reprocessors, shredders, and waste handling equipment that empower
                         communities and industries to reduce waste, conserve resources, and promote

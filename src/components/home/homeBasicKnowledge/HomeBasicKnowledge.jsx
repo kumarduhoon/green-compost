@@ -15,7 +15,7 @@ function HomeBasicKnowledge() {
                 <div
                     className='home-basic-knoeledage-con__text-con-one'>
                     <h1 className='home-basic-knoeledage-con__text-con-one__head'>ORGANIC  WASTE COMPOSTING SYSTEM</h1>
-                    <p className='home-basic-knoeledage-con__text-con-one__text'>Convert your organic waste into gold with GREEN COMPOSTE</p>
+                    <p className='home-basic-knoeledage-con__text-con-one__text'>Convert your organic waste into gold with GREEN COMPOSTE (Green Compost)</p>
                     <Link to='/about'>
                         <button className='home-basic-knoeledage-con__text-con-one__btn'>FIND MORE</button>
                     </Link>

@@ -43,12 +43,12 @@ function Footer() {
                 </div>
                 <div className="footer-section newsletter">
                     <div><h3>Address</h3>
-                        <div>Plot no. 382, Sec.- 68, IMT Faridabad, Haryana, India</div>
+                        <div>Plot no. 382, Sec.- 68, IMT Faridabad, Haryana, India</div>
                     </div>
                 </div>
             </div>
             <div className="footer-bottom">
-                <p>© Copyright 2024 - Green Composite. All Rights Reserved.</p>
+                <p>© Copyright 2024 - Green Composte (green compost). All Rights Reserved.</p>
             </div>
         </footer>
     )

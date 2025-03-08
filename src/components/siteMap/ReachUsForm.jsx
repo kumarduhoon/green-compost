@@ -44,7 +44,7 @@ const ReachUsForm = () => {
             <div className="contact-section__left">
                 <h2>OUR MISSION</h2>
                 <p className="contact-section__left">
-                    At Green Composte, our mission is to revolutionize waste management by delivering
+                    At Green Composte, (green compost) our mission is to revolutionize waste management by delivering
                     innovative and sustainable solutions. We are dedicated to manufacturing high-quality
                     organic waste reprocessors, shredders, and waste handling equipment that empower
                     communities and industries to reduce waste, conserve resources, and promote

@@ -30,8 +30,8 @@ function OurMachine() {
                 </div>
                 <div data-aos="fade-zoom-in" className='our-machine-one__content-con'>
                     <div className='our-machine-one__content'>
-                        <p className='our-machine-one__content__text'>GREEN COMPOSTE is committed to helping the globe achieve zero food waste by providing automatic organic food waste composting solutions and systems for all kinds of businesses and homes.</p>
-                        <p className='our-machine-one__content__text-two'>Our goal is to help achieve sustainability, allowing the food waste from the farms, restaurants, hotels, food processing plants, etc. to go back to the farms as fertilizer for future food through our food recycler machines . </p>
+                        <p className='our-machine-one__content__text'>GREEN COMPOSTE (GREEN COMPOST) is committed to helping the globe achieve zero food waste by providing automatic organic food waste composting solutions and systems for all kinds of businesses and homes.</p>
+                        <p className='our-machine-one__content__text-two'>Our goal is to help achieve sustainability, allowing the food waste from the farms, restaurants, hotels, food processing plants, etc. to go back to the farms as fertilizer for future food through our food recycler machines or green compost machine. </p>
                     </div>
                     <div className='our-machine-one__content-con__img-con'><img src={bigMachine} alt="Image Alt" loading="lazy" className='our-machine-one__content-con__img-con_img' /></div>
                 </div>
